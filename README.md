@@ -10,7 +10,7 @@ Python script to trade stocks using different strategies through webull api.
 
 
 ### Example Output
-![BTCprice.PNG]()
+![BTCprice.PNG](https://github.com/fredryce/stocker/blob/main/BTCprice.PNG)
 
 
 # Discord Scraper
