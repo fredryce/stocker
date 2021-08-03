@@ -1,0 +1,21 @@
+name: stocker
+dependencies:
+  - python=3.8   # or 2.7
+  - pip
+  - pip:
+    - yfinance
+    - robin-stocks
+    - git+https://github.com/mariostoev/finviz
+    - setuptools
+    - wheel
+    - spacy
+    - pymongo
+    - dnspython
+    - pyqt5==5.12.3 
+    - pyqtwebengine==5.12.1
+    - webull
+    - paho-mqtt==1.5.1
+    - trendln==0.1.10
+    - finta==1.3
+
+#conda env activate --file environment.yml

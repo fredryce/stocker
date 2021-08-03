@@ -1,0 +1,33 @@
+
+pay attention to the growth of stocks on robinhood over time
+look up youtube videos on people talking about the stock a week or a month prior
+give a score to that particular youtuber based on the accuracy prediction
+
+https://www.youtube.com/watch?v=FM0MScBPTgY&ab_channel=TechConversations
+
+https://www.youtube.com/watch?v=4HMm6mBvGKE&ab_channel=SkyViewTrading
+
+options 
+
+Call: you can buy a particular stock before or on the date based on the target price, we can buy it at that price for the time limit
+	Buy: 1.20 expire 30 days, we can buy it at that price for the time limit
+
+
+Put: you can sell a particular stock before or on the date based on the target price
+	Buy: 1.20 expire 30 days, 
+
+
+Fib retracements
+
+Choosing stocks:
+	finviz: used to determine what stocks to buy along with 
+
+https://finviz.com/screener.ashx?v=351&f=sh_curvol_o1000,sh_opt_optionshort,sh_price_u10,ta_highlow52w_b0to3h
+
+
+utilizing multiprocessing:
+
+	a que that takes in a tuple (df, index)df is the entire df, index is the index to process
+	the que contains a list of stocks to pay attention to, take from que spawn threads to get info and generate the ()tuple, then within the thread we put the tuple back in the que for processing
+
+	two ques if first que has work perform that task first, if not get data from second que
